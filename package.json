@@ -1,0 +1,16 @@
+{
+  "name": "speech-transcriber-doris",
+  "version": "1.0.0",
+  "description": "A speech transcription application",
+  "main": "transcribe.js",
+  "scripts": {
+    "start": "node transcribe.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Helle",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/speech": "^1.5.0",
+    "node-record-lpcm16": "^0.3.0"
+  }
+}
