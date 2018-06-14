@@ -50,11 +50,8 @@ record
 
 console.log('Listening, press Ctrl+C to stop.');
 
-var num = 0;
-
 app.get('/api/getSpeech', (req, res) => {
-    num++;
-    res.send({ express: `Speech: ${speechResults}` });
+    res.send({ express: `${speechResults}` });
 });
 
 app.listen(port, () => console.log(`Express server listening on port ${port}`));
