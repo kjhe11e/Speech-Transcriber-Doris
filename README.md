@@ -1,6 +1,3 @@
-Currently a "hello world" level speech transcription application using Google Cloud's API.
-
-
 Prerequisites:
 
 * NodeJs - version 6.14.2 or newer is recommended
