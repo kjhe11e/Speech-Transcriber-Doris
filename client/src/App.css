@@ -18,8 +18,12 @@
   font-size: 1.5em;
 }
 
-.App-intro {
+/* .App-intro {
   font-size: large;
+} */
+
+.Speech {
+  font-size: 100pt;
 }
 
 @keyframes App-logo-spin {
