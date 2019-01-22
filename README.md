@@ -25,7 +25,7 @@ Installation & setup steps:
 
 4. Install and initialize Google Cloud SDK - steps here: https://cloud.google.com/sdk/docs
 
-5. Run `npm install && npm run start`
+5. Run `npm install && npm run dev`
 
 6. Enjoy! Press CTRL-C anytime to quit
 
