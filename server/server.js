@@ -29,10 +29,12 @@ let speechResults;
 const recognizeStream = client
   .streamingRecognize(request)
   .on('error', console.error)
-  .on('data', data =>
+  .on('data', data => {
     speechResults = data.results[0] && data.results[0].alternatives[0]
         ? data.results[0].alternatives[0].transcript
-        : `Reached transcription time limit, press Ctrl+C to close\n`
+        : `Reached transcription time limit, press Ctrl+C to close\n`;
+    console.log('transcribed speech:', speechResults);
+  }
   );
 
 // Start recording and send the microphone input to the Speech API
