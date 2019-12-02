@@ -1,6 +1,6 @@
 Prerequisites:
 
-* NodeJs - version 6.14.2 or newer is recommended
+* NodeJs - version >= v12 recommended
 
 * Google Cloud Platform account - you may create an account at https://cloud.google.com
 
