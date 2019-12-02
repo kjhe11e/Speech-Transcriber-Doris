@@ -12,6 +12,7 @@
         "node-record-lpcm16": "^0.3.0"
     },
     "devDependencies": {
-        "concurrently": "^3.5.1"
+        "concurrently": "^3.5.1",
+        "nodemon": "^2.0.1"
     }
 }

@@ -21,7 +21,7 @@ Installation & setup steps:
 
 3. Set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable to the file path of the JSON file containing your account key (from step 2d above)
 
-    Example for Linux: `export GOOGLE_APPLICATION_CREDENTIALS=/home/user/service-account-file.json`
+    Example for Linux: `export GOOGLE_APPLICATION_CREDENTIALS=./speech-api-key.json`
 
 4. Install and initialize Google Cloud SDK - steps here: https://cloud.google.com/sdk/docs
 
